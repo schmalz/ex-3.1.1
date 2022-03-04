@@ -7,7 +7,7 @@
 (defrecord Particle [x y size x-dir y-dir])
 
 (defn- initialise
-  "Initialise the programs's state with 400 particles."
+  "Initialise the programs's state with 4000 particles."
   []
   (q/smooth)
   (q/no-stroke)
